@@ -5,11 +5,11 @@
 body{
     background-color: rgb(245, 244, 241);
 }
-
+/* 
 section{
     height: 500px;
     border: black, solid ;
-}
+} */
 
 h1{
     font-size: 60px;
@@ -22,6 +22,10 @@ h1{
     font-family: 'Raleway', sans-serif;
     font-family: 'Source Code Pro', monospace;
     text-align: center;
+}
+
+#portfolio{
+    justify-content: space-between;
 }
 
 .projects-section{
@@ -74,12 +78,29 @@ h1{
 
 }
 
+button {
+	width: 150px;
+	height: 50px;
+	cursor: pointer;
+	font-size: 20px;
+	font-weight: bold;
+	color: black;
+	background: white;
+	border: 2px solid black;
+	box-shadow: 5px 5px 0 black,
+		-5px -5px 0 black,
+		-5px 5px 0 black,
+		5px -5px 0 black;
+	transition: 500ms ease-in-out;
+}
 
- body{
-   margin: auto;
-   padding: 0;
-   height: 100vh;
-} 
+.test:hover {
+	box-shadow: 20px 5px 0 black, -20px -5px 0 black;
+}
+
+.test:focus {
+	outline: none;
+}
 
 .main-nav {
     display: flex;
