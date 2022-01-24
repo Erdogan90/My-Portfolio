@@ -78,7 +78,7 @@ h1{
 
 }
 
-button {
+.weather {
 	width: 150px;
 	height: 50px;
 	cursor: pointer;
@@ -86,7 +86,7 @@ button {
 	font-weight: bold;
 	color: black;
 	background: white;
-	border: 2px solid black;
+	border: 2px black;
 	box-shadow: 5px 5px 0 black,
 		-5px -5px 0 black,
 		-5px 5px 0 black,
@@ -94,13 +94,42 @@ button {
 	transition: 500ms ease-in-out;
 }
 
-.test:hover {
+.weather:hover {
 	box-shadow: 20px 5px 0 black, -20px -5px 0 black;
 }
 
-.test:focus {
+.weather:focus {
 	outline: none;
 }
+
+#test{
+    text-align: center;
+}
+
+.calculator {
+	width: 150px;
+	height: 50px;
+	cursor: pointer;
+	font-size: 20px;
+	font-weight: bold;
+	color: black;
+	background: white;
+	border: 2px black;
+	box-shadow: 5px 5px 0 black,
+		-5px -5px 0 black,
+		-5px 5px 0 black,
+		5px -5px 0 black;
+	transition: 500ms ease-in-out;
+}
+
+.calculator:hover {
+	box-shadow: 20px 5px 0 black, -20px -5px 0 black;
+}
+
+.calculator:focus {
+	outline: none;
+}
+
 
 .main-nav {
     display: flex;
