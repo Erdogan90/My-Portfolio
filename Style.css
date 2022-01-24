@@ -5,15 +5,14 @@
 body{
     background-color: rgb(245, 244, 241);
 }
-/* 
-section{
-    height: 500px;
-    border: black, solid ;
-} */
 
 h1{
     font-size: 60px;
     font-weight: bolder;
+}
+
+#portfolio{
+    justify-content: space-between;
 }
 
 
@@ -24,9 +23,6 @@ h1{
     text-align: center;
 }
 
-#portfolio{
-    justify-content: space-between;
-}
 
 .projects-section{
     font-size: 30px;
@@ -78,11 +74,13 @@ h1{
 
 }
 
-.weather {
+
+
+.button {
 	width: 150px;
 	height: 50px;
 	cursor: pointer;
-	font-size: 20px;
+	font-size: 16px;
 	font-weight: bold;
 	color: black;
 	background: white;
@@ -92,21 +90,17 @@ h1{
 		-5px 5px 0 black,
 		5px -5px 0 black;
 	transition: 500ms ease-in-out;
+    padding: 0%;
 }
 
-.weather:hover {
+.button:hover {
 	box-shadow: 20px 5px 0 black, -20px -5px 0 black;
 }
 
-.weather:focus {
+.button:focus {
 	outline: none;
 }
-
-#test{
-    text-align: center;
-}
-
-.calculator {
+/* .calculator {
 	width: 150px;
 	height: 50px;
 	cursor: pointer;
@@ -120,6 +114,7 @@ h1{
 		-5px 5px 0 black,
 		5px -5px 0 black;
 	transition: 500ms ease-in-out;
+    padding: 0%;
 }
 
 .calculator:hover {
@@ -128,7 +123,7 @@ h1{
 
 .calculator:focus {
 	outline: none;
-}
+} */
 
 
 .main-nav {

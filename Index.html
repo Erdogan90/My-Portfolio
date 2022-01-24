@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:ital@1&family=Source+Code+Pro:wght@700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <title>My-Portfolio</title>
 </head>
 <body>
@@ -65,10 +66,8 @@
     <br/>
     <section id="portfolio">
         <h2 class="projects-section">Projects</h2>
-        <p>Since the start of the School of Code I've been working on multiple projects
-            </p>
-            <p>     
-                Some of these projects have been personal ones and some have been part of my course working in a team. 
+        <p>Since the start of the School of Code I've been working on multiple projects.           
+            Some of these projects have been personal ones and some have been part of my course working in a team. 
             </p>
             <p>
                 I’m current;y working on an app in my spare time that looks to promote a healthy mind by presenting people with multiple options to keep their mood high or to help lift their spirits up when it’s low. 
@@ -76,12 +75,17 @@
             <p>  
                 All the projects I have worked on have been planned out with low and high fidelity frameworks to ensure either myself or my team have a clear structure in regards to our application aims. 
             </p>
-            <form action="https://github.com/SchoolOfCode/w8_d5-hackathon_react-app-with-api-data-room-37">
-            <button type="submit" class= "weather">Weather app</button>
-            </form>
-            <form id='test'action="https://github.com/Erdogan90/React-calculator">
-                <button type="submit" class= "calculator">React calculator</button>
-                </form>
+            <div class="d-flex justify-content-around">
+            <a href="https://github.com/SchoolOfCode/w8_d5-hackathon_react-app-with-api-data-room-37" target="_blank">
+                <button type="submit" class= "button">Weather app</button>
+            </a>
+            <a href="https://github.com/Erdogan90/React-calculator" target="_blank">
+                <button type="submit" class= "button">React calculator</button>
+            </a>
+            <a href="https://github.com/SchoolOfCode/Pineappple-does-not-belong-on-pizza.git" target="_blank">
+                <button type="submit" class= "button">Testing and creating Kata</button>
+            </a>
+            </div>
     </section>
     <section id="skills">
         <h2 class="skills-section">Skills</h2>
