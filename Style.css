@@ -107,10 +107,10 @@ h1{
 }
 
 .link-button {
-	width: 150px;
-	height: 50px;
+	width: 75px;
+	height: 30px;
 	cursor: pointer;
-	font-size: 16px;
+	font-size: 14px;
 	font-weight: bold;
 	color: black;
 	background: white;
@@ -121,6 +121,7 @@ h1{
 		5px -5px 0 black;
 	transition: 500ms ease-in-out;
     padding: 0%;
+    border-radius: 5px;
 }
 
 .link-button:hover {
