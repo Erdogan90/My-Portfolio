@@ -26,6 +26,7 @@ h1{
 
 
 .projects-section{
+    padding-top: 4%;
     font-size: 30px;
     font-family: 'Raleway', sans-serif;
     font-family: 'Source Code Pro', monospace;
@@ -33,6 +34,7 @@ h1{
 }
 
 .skills-section{
+    padding-top: 4%;
     font-size: 30px;
     font-family: 'Raleway', sans-serif;
     font-family: 'Source Code Pro', monospace;
@@ -42,7 +44,8 @@ h1{
 
 .portrait{
     float: left;
-    margin-bottom: 5px;
+    /* margin-bottom: 5px; */
+    margin-right: 25px;
 }
 
 .text{
@@ -52,19 +55,6 @@ h1{
     margin-left:40px;
 }
 
-.me{
-    font-family: sans-serif;
-    text-align: justify;
-    margin-right: 5px;
-    line-height: 200%;
-}
-
-.code{
-    max-width: 50%;
-    max-height: 50%;
-    display: flex;
-    float: right;
-}
 
 .heading{
     text-align: center;
