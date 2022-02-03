@@ -139,9 +139,10 @@ h1{
     justify-content:center;
     gap: 30px;
     align-items: center;
-    border-radius: 0%;
     margin-bottom: 0%;
-}
+    padding-bottom: 0%;
+    padding: 25px;
+   }
 
 
 .main-nav {
