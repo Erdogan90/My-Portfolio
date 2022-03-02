@@ -24,6 +24,11 @@ h1{
     font-weight: bolder;
 }
 
+.myself{
+    max-width: 100%;
+    height: auto;
+}
+
 #portfolio{
     justify-content: space-between;
 }
